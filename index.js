@@ -218,6 +218,7 @@ if (!nativeBinding) {
   throw new Error(`Failed to load native binding`)
 }
 
-const { plus100 } = nativeBinding
+const { LycheeServer, plus100 } = nativeBinding
 
+module.exports.LycheeServer = LycheeServer
 module.exports.plus100 = plus100

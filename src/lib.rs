@@ -1,5 +1,7 @@
 #![deny(clippy::all)]
 
+pub mod wrapper;
+
 use napi_derive::napi;
 
 #[cfg(all(
